@@ -1,0 +1,73 @@
+* {
+    background-color: grey;
+    border: solid 2px  salmon;
+}
+
+img {
+    height: 35rem;
+    width: 30rem;
+}
+
+body {
+    margin: 50px;
+    height: 100vh;
+    max-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+}
+
+.wrapper {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+}
+
+#button-container {
+    height: 4rem;
+    display:flex;
+    flex-flow: column;
+    justify-content: space-between;
+    width: max-content;
+}
+
+.removed {
+    opacity: 0;
+    transform: 1s;
+}
+
+button {
+    color: orangered;
+    background-color: palegreen;
+    border-radius: 5rem;
+    size: 7rem;
+}
+
+.keyboard {
+    height: 25rem;
+    width: 25rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.keys {
+    height: 2rem;
+    width: 2rem;
+    border-radius: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.guess-tracker {
+    height: 10rem;
+    width: 30rem;
+    margin: 3rem;
+    background-color: aqua;
+    text-align: center;
+    font-size: 2rem;
+
+}
